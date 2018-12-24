@@ -41,21 +41,20 @@ posthtml()
 
 ### License [MIT](LICENSE)
 
-[npm]: https://img.shields.io/npm/v/posthtml.svg
-[npm-url]: https://npmjs.com/package/posthtml
+[npm]: https://img.shields.io/npm/v/posthtml-webp.svg
+[npm-url]: https://npmjs.com/package/posthtml-webp
 
-[deps]: https://david-dm.org/posthtml/posthtml.svg
-[deps-url]: https://david-dm.org/posthtml/posthtml
+[deps]: https://david-dm.org/posthtml/posthtml-webp.svg
+[deps-url]: https://david-dm.org/posthtml/posthtml-webp
 
 [style]: https://img.shields.io/badge/code%20style-standard-yellow.svg
 [style-url]: http://standardjs.com/
 
-[build]: https://travis-ci.org/posthtml/posthtml.svg?branch=master
-[build-badge]: https://travis-ci.org/posthtml/posthtml?branch=master
+[build]: https://travis-ci.org/posthtml/posthtml-webp.svg?branch=master
+[build-badge]: https://travis-ci.org/posthtml/posthtml-webp?branch=master
 
-[cover]: https://coveralls.io/repos/posthtml/posthtml/badge.svg?branch=master
-[cover-badge]: https://coveralls.io/r/posthtml/posthtml?branch=master
-
+[cover]: https://coveralls.io/repos/posthtml/posthtml-webp/badge.svg?branch=master
+[cover-badge]: https://coveralls.io/r/posthtml/posthtml-webp?branch=master
 
 [chat]: https://badges.gitter.im/posthtml/posthtml.svg
 [chat-badge]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
