@@ -1,0 +1,44 @@
+{
+  "name": "posthtml-webp",
+  "description": "Add webp supporting in your html",
+  "version": "1.0.0",
+  "author": "seokirill",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/posthtml/posthtml-webp/issues",
+  "dependencies": {
+    "posthtml": "^0.9.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "conventional-changelog": "^1.1.0",
+    "conventional-changelog-lint": "^1.0.0",
+    "husky": "^0.11.5",
+    "mversion": "^1.10.1",
+    "snazzy": "^4.0.0",
+    "standard": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/posthtml/posthtml-webp",
+  "keywords": [
+    "html",
+    "posthtml",
+    "posthtml-plugin",
+    "webp"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": "posthtml/posthtml-webp",
+  "scripts": {
+    "commitmsg": "conventional-changelog-lint -p angular -e",
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint",
+    "release-major": "mversion major",
+    "release-minor": "mversion minor",
+    "release-patch": "mversion patch",
+    "test": "npm run lint && ava"
+  }
+}
