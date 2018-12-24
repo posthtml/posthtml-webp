@@ -14,8 +14,10 @@
     "ava": "^0.15.2",
     "conventional-changelog": "^1.1.0",
     "conventional-changelog-lint": "^1.0.0",
+    "coveralls": "^3.0.2",
     "husky": "^0.11.5",
     "mversion": "^1.10.1",
+    "nyc": "^13.1.0",
     "snazzy": "^4.0.0",
     "standard": "^7.1.2"
   },
