@@ -11,11 +11,17 @@ test('basic', (t) => {
   return compare(t, 'basic')
 })
 
-function compare (t, name) {
+test('Replace extension', (t) => {
+  return compare(t, 'extension', {
+    replaceExtension: true
+  })
+})
+
+function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
 
-  return posthtml([plugin()])
+  return posthtml([plugin(options)])
     .process(html)
     .then((res) => t.truthy(res.html === expected))
 }
