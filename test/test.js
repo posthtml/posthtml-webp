@@ -17,6 +17,12 @@ test('Replace extension', (t) => {
   })
 })
 
+test('Append extension', (t) => {
+  return compare(t, 'no-extension', {
+    replaceExtension: false
+  })
+})
+
 function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
