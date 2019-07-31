@@ -26,6 +26,15 @@ After:
 
 > npm i posthtml posthtml-webp
 
+## Plugin options
+`replaceExtension` (boolean)
+
+**Default:** false
+
+Replace the extension of the source image with .webp instead of appending .webp to the original filename
+
+**Example**: image.jpg => image.webp (instead of image.jpg.webp)
+
 ## Usage
 
 ``` js
@@ -34,7 +43,7 @@ const posthtml = require('posthtml');
 const posthtmlWebp = require('posthtml-webp');
 
 posthtml()
-    .use(posthtmlWebp())
+    .use(posthtmlWebp(/* Plugin options */))
     .process(html/*, options */)
     .then(result => fs.writeFileSync('./after.html', result.html));
 ```
