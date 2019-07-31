@@ -8,18 +8,18 @@
   },
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
-    "posthtml": "^0.9.0"
+    "posthtml": "^0.11.4"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "conventional-changelog": "^1.1.0",
-    "conventional-changelog-lint": "^1.0.0",
-    "coveralls": "^3.0.2",
-    "husky": "^0.11.5",
-    "mversion": "^1.10.1",
-    "nyc": "^13.1.0",
-    "snazzy": "^4.0.0",
-    "standard": "^7.1.2"
+    "ava": "^2.2.0",
+    "conventional-changelog": "^3.1.10",
+    "conventional-changelog-lint": "^2.1.1",
+    "coveralls": "^3.0.5",
+    "husky": "^3.0.2",
+    "mversion": "^1.13.0",
+    "nyc": "^14.1.1",
+    "snazzy": "^8.0.0",
+    "standard": "^13.1.0"
   },
   "engines": {
     "node": ">=4"
