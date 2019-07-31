@@ -22,7 +22,7 @@
     "standard": "^13.1.0"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "homepage": "https://github.com/posthtml/posthtml-webp",
   "keywords": [
