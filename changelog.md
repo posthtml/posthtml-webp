@@ -1,3 +1,25 @@
-## 1.0.0 (2.10.16)
+## 1.1.0 (2019-07-31)
 
-- Added: Initial version
+* build: add conventional-changelog-cli ([d6680c9](https://github.com/posthtml/posthtml-webp/commit/d6680c9))
+* build: bump ([c53c66e](https://github.com/posthtml/posthtml-webp/commit/c53c66e))
+* build: bump ([574fd38](https://github.com/posthtml/posthtml-webp/commit/574fd38))
+* build: bump ([aa50a08](https://github.com/posthtml/posthtml-webp/commit/aa50a08))
+* build: update hooks and script system ([2940b65](https://github.com/posthtml/posthtml-webp/commit/2940b65))
+* chore: rename to upper ([fffa27f](https://github.com/posthtml/posthtml-webp/commit/fffa27f))
+* chore: update depDev ([84433e8](https://github.com/posthtml/posthtml-webp/commit/84433e8))
+* ci: add travis config ([13d213c](https://github.com/posthtml/posthtml-webp/commit/13d213c))
+* ci: drop support old node ([11e929f](https://github.com/posthtml/posthtml-webp/commit/11e929f))
+* ci: fix travis config ext ([fd1b18d](https://github.com/posthtml/posthtml-webp/commit/fd1b18d))
+* test: replaceExtension feature disabled ([851a714](https://github.com/posthtml/posthtml-webp/commit/851a714))
+* test: replaceExtension feature enabled ([8120ad1](https://github.com/posthtml/posthtml-webp/commit/8120ad1))
+* test: replaceExtension feature unspecified ([a2c512e](https://github.com/posthtml/posthtml-webp/commit/a2c512e))
+* test: style according linter ([c05c33a](https://github.com/posthtml/posthtml-webp/commit/c05c33a))
+* feat: Replace file extension instead of appending .webp ([9921f53](https://github.com/posthtml/posthtml-webp/commit/9921f53))
+* feat: restore from delete git repository ([f81e404](https://github.com/posthtml/posthtml-webp/commit/f81e404))
+* perf: add node 10 and 11 ([2e8f2e0](https://github.com/posthtml/posthtml-webp/commit/2e8f2e0))
+* perf: add nyc and coverals ([39625dc](https://github.com/posthtml/posthtml-webp/commit/39625dc))
+* fix: path to this pkg ([645e85a](https://github.com/posthtml/posthtml-webp/commit/645e85a))
+* docs: add correct pkg name ([74f6789](https://github.com/posthtml/posthtml-webp/commit/74f6789))
+
+
+
