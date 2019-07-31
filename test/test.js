@@ -2,7 +2,7 @@
 
 const test = require('ava')
 const plugin = require('..')
-const {readFileSync} = require('fs')
+const { readFileSync } = require('fs')
 const path = require('path')
 const posthtml = require('posthtml')
 const fixtures = path.join(__dirname, 'fixtures')
