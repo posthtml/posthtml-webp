@@ -22,6 +22,20 @@ After:
 </picture>
 ```
 
+Also supports [`<amp-img>`](https://amp.dev/documentation/components/amp-img/)
+
+Before:
+```html
+<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png"></amp-img>
+```
+
+After:
+```html
+<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png.webp">
+    <amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png" fallback=""></amp-img>
+</amp-img>
+```
+
 ## Install
 
 > npm i posthtml posthtml-webp
