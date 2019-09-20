@@ -77,7 +77,7 @@ posthtml()
 [build-badge]: https://travis-ci.org/posthtml/posthtml-webp
 
 [cover]: https://coveralls.io/repos/posthtml/posthtml-webp/badge.svg
-[cover-badge]: https://coveralls.io/r/posthtml/posthtml-web
+[cover-badge]: https://coveralls.io/r/posthtml/posthtml-webp
 
 [chat]: https://badges.gitter.im/posthtml/posthtml.svg
 [chat-badge]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"

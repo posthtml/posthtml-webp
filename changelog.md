@@ -1,12 +1,23 @@
+## 1.2.0 (2019-09-20)
+
+* build: update depDev ([d3543fe](https://github.com/posthtml/posthtml-webp/commit/d3543fe))
+* docs: fix typo cover ([d1c6dce](https://github.com/posthtml/posthtml-webp/commit/d1c6dce))
+* docs: update badges ([5d3901f](https://github.com/posthtml/posthtml-webp/commit/5d3901f))
+* feat: amp-img support ([37fec39](https://github.com/posthtml/posthtml-webp/commit/37fec39))
+
+
+
 ## 1.1.0 (2019-07-31)
 
+* chore: rename to upper ([fffa27f](https://github.com/posthtml/posthtml-webp/commit/fffa27f))
+* chore: update depDev ([84433e8](https://github.com/posthtml/posthtml-webp/commit/84433e8))
+* chore: v1.1.0 ([f77ed1d](https://github.com/posthtml/posthtml-webp/commit/f77ed1d))
 * build: add conventional-changelog-cli ([d6680c9](https://github.com/posthtml/posthtml-webp/commit/d6680c9))
 * build: bump ([c53c66e](https://github.com/posthtml/posthtml-webp/commit/c53c66e))
 * build: bump ([574fd38](https://github.com/posthtml/posthtml-webp/commit/574fd38))
 * build: bump ([aa50a08](https://github.com/posthtml/posthtml-webp/commit/aa50a08))
+* build: update changelog ([622ecd0](https://github.com/posthtml/posthtml-webp/commit/622ecd0))
 * build: update hooks and script system ([2940b65](https://github.com/posthtml/posthtml-webp/commit/2940b65))
-* chore: rename to upper ([fffa27f](https://github.com/posthtml/posthtml-webp/commit/fffa27f))
-* chore: update depDev ([84433e8](https://github.com/posthtml/posthtml-webp/commit/84433e8))
 * ci: add travis config ([13d213c](https://github.com/posthtml/posthtml-webp/commit/13d213c))
 * ci: drop support old node ([11e929f](https://github.com/posthtml/posthtml-webp/commit/11e929f))
 * ci: fix travis config ext ([fd1b18d](https://github.com/posthtml/posthtml-webp/commit/fd1b18d))
