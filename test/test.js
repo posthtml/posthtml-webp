@@ -27,11 +27,17 @@ test('Default behaviour', (t) => {
   return compare(t, 'no-extension')
 })
 
+test('Multi srcset', (t) => {
+  return compare(t, 'multisrcset', {
+    replaceExtension: true
+  })
+})
+
 function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
 
   return posthtml([plugin(options)])
     .process(html)
-    .then((res) => t.truthy(res.html === expected))
+    .then((res) => t.deepEqual(res.html, expected))
 }

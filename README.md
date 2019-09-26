@@ -7,47 +7,12 @@
 [![Standard Code Style][style]][style-url]
 [![Chat][chat]][chat-badge]
 
-This plugin add webp supporting in your html.
-
-Before:
-``` html
-<img src="image.jpg">
-```
-
-After:
-``` html
-<picture>
-    <source type="image/webp" srcset="image.jpg.webp">
-    <img src="image.jpg">
-</picture>
-```
-
-Also supports [`<amp-img>`](https://amp.dev/documentation/components/amp-img/)
-
-Before:
-```html
-<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png"></amp-img>
-```
-
-After:
-```html
-<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png.webp">
-    <amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png" fallback=""></amp-img>
-</amp-img>
-```
+This plugin add webp supporting in your html. Also supports [`<amp-img>`](https://amp.dev/documentation/components/amp-img/)
 
 ## Install
-
-> npm i posthtml posthtml-webp
-
-## Plugin options
-`replaceExtension` (boolean)
-
-**Default:** false
-
-Replace the extension of the source image with .webp instead of appending .webp to the original filename
-
-**Example**: image.jpg => image.webp (instead of image.jpg.webp)
+```bash
+$ npm i posthtml posthtml-webp
+```
 
 ## Usage
 
@@ -61,6 +26,33 @@ posthtml()
     .process(html/*, options */)
     .then(result => fs.writeFileSync('./after.html', result.html));
 ```
+## Example 
+
+Before:
+``` html
+<img src="image.jpg">
+<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png"></amp-img>
+```
+
+After:
+``` html
+<picture>
+    <source type="image/webp" srcset="image.jpg.webp">
+    <img src="image.jpg">
+</picture>
+<amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png.webp">
+    <amp-img alt="photo" width="550" height="368" layout="responsive" src="photo.png" fallback=""></amp-img>
+</amp-img>
+```
+
+## Options
+
+#### `replaceExtension`
+
+Type: `boolean`  
+Default: `false`  
+Description: *Replace the extension of the source image with .webp instead of appending .webp to the original filename*  
+Example: `image.jpg => image.webp (instead of image.jpg.webp)`
 
 ### License [MIT](LICENSE)
 
