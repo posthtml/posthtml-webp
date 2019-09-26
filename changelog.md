@@ -1,5 +1,15 @@
+## 1.3.0 (2019-09-26)
+
+* feat: multi srcset, close #5 ([b31efc6](https://github.com/posthtml/posthtml-webp/commit/b31efc6)), closes [#5](https://github.com/posthtml/posthtml-webp/issues/5)
+* docs: simple update ([cc7079e](https://github.com/posthtml/posthtml-webp/commit/cc7079e))
+* test: for issue #5 ([9b63e67](https://github.com/posthtml/posthtml-webp/commit/9b63e67)), closes [#5](https://github.com/posthtml/posthtml-webp/issues/5)
+
+
+
 ## 1.2.0 (2019-09-20)
 
+* build: bump to 1.2.0 ([e58bd0e](https://github.com/posthtml/posthtml-webp/commit/e58bd0e))
+* build: update changelog ([eee9697](https://github.com/posthtml/posthtml-webp/commit/eee9697))
 * build: update depDev ([d3543fe](https://github.com/posthtml/posthtml-webp/commit/d3543fe))
 * docs: fix typo cover ([d1c6dce](https://github.com/posthtml/posthtml-webp/commit/d1c6dce))
 * docs: update badges ([5d3901f](https://github.com/posthtml/posthtml-webp/commit/5d3901f))
