@@ -33,6 +33,12 @@ test('Multi srcset', (t) => {
   })
 })
 
+test('Class ignore', (t) => {
+  return compare(t, 'ignore', {
+    classIgnore: ['ignore-class']
+  })
+})
+
 function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
