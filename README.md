@@ -49,9 +49,16 @@ After:
 
 #### `replaceExtension`
 
-Type: `boolean`  
+Type: `Boolean`  
 Default: `false`  
 Description: *Replace the extension of the source image with .webp instead of appending .webp to the original filename*  
+Example: `image.jpg => image.webp (instead of image.jpg.webp)`
+
+#### `classIgnore`
+
+Type: `Array<string>`  
+Default: `[]`  
+Description: *list of classes for which the transformation will be ignored*  
 Example: `image.jpg => image.webp (instead of image.jpg.webp)`
 
 ### License [MIT](LICENSE)

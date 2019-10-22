@@ -1,22 +1,22 @@
 {
   "name": "posthtml-webp",
   "description": "Add webp supporting in your html",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "seokirill",
   "ava": {
     "verbose": "true"
   },
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
-    "posthtml": "^0.11.6"
+    "posthtml": "^0.12.0"
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "conventional-changelog": "^3.1.10",
-    "conventional-changelog-cli": "^2.0.23",
+    "conventional-changelog": "^3.1.12",
+    "conventional-changelog-cli": "^2.0.25",
     "conventional-changelog-lint": "^2.1.1",
-    "coveralls": "^3.0.6",
-    "husky": "^3.0.5",
+    "coveralls": "^3.0.7",
+    "husky": "^3.0.9",
     "mversion": "^1.13.0",
     "nyc": "^14.1.1",
     "snazzy": "^8.0.0",
