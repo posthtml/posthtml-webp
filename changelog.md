@@ -1,5 +1,17 @@
+## 1.4.0 (2019-10-22)
+
+* docs: for ignore ([15953c7](https://github.com/posthtml/posthtml-webp/commit/15953c7))
+* feat: ignore, close #21 ([735ed05](https://github.com/posthtml/posthtml-webp/commit/735ed05)), closes [#21](https://github.com/posthtml/posthtml-webp/issues/21)
+* test: for ignore, issue #21 ([4fa4423](https://github.com/posthtml/posthtml-webp/commit/4fa4423)), closes [#21](https://github.com/posthtml/posthtml-webp/issues/21)
+* perf: process ([433d79c](https://github.com/posthtml/posthtml-webp/commit/433d79c))
+* build: update depDev ([c6073ba](https://github.com/posthtml/posthtml-webp/commit/c6073ba))
+
+
+
 ## 1.3.0 (2019-09-26)
 
+* chore: v1.3.0 ([b7c29c6](https://github.com/posthtml/posthtml-webp/commit/b7c29c6))
+* build: update changelog ([a968946](https://github.com/posthtml/posthtml-webp/commit/a968946))
 * feat: multi srcset, close #5 ([b31efc6](https://github.com/posthtml/posthtml-webp/commit/b31efc6)), closes [#5](https://github.com/posthtml/posthtml-webp/issues/5)
 * docs: simple update ([cc7079e](https://github.com/posthtml/posthtml-webp/commit/cc7079e))
 * test: for issue #5 ([9b63e67](https://github.com/posthtml/posthtml-webp/commit/9b63e67)), closes [#5](https://github.com/posthtml/posthtml-webp/issues/5)
