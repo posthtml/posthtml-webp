@@ -39,6 +39,12 @@ test('Class ignore', (t) => {
   })
 })
 
+test('Extension ignore', (t) => {
+  return compare(t, 'ignore-extension', {
+    extensionIgnore: ['gif', 'svg']
+  })
+})
+
 function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')

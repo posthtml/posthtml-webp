@@ -59,7 +59,14 @@ Example: `image.jpg => image.webp (instead of image.jpg.webp)`
 Type: `Array<string>`  
 Default: `[]`  
 Description: *list of classes for which the transformation will be ignored*  
-Example: `image.jpg => image.webp (instead of image.jpg.webp)`
+Example: `classIgnore: ['ignore-webp']` will ignore transformation for images with the class `ignore-web` 
+
+#### `extensionIgnore`
+
+Type: `Array<string>`  
+Default: `[]`  
+Description: *list of extension for which the transformation will be ignored*  
+Example: `extensionIgnore: ['svg']` will ignore transformation for images with the `svg` extension
 
 ### License [MIT](LICENSE)
 
