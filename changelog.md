@@ -1,10 +1,24 @@
+## 1.5.0 (2020-02-25)
+
+* build: bump version ([7f869de](https://github.com/posthtml/posthtml-webp/commit/7f869de))
+* build: update dep dev ([2002e72](https://github.com/posthtml/posthtml-webp/commit/2002e72))
+* refactor: separate ignore to two separate methods ([ffba43d](https://github.com/posthtml/posthtml-webp/commit/ffba43d))
+* refactor: use explicit comparisons ([c232f5c](https://github.com/posthtml/posthtml-webp/commit/c232f5c))
+* docs: fix wrong example for ([923087b](https://github.com/posthtml/posthtml-webp/commit/923087b))
+* docs: update readme with extensionIgnore option ([e5c62de](https://github.com/posthtml/posthtml-webp/commit/e5c62de))
+* feat: add the ability to ignore by extension ([a390853](https://github.com/posthtml/posthtml-webp/commit/a390853))
+
+
+
 ## 1.4.0 (2019-10-22)
 
+* chore: bump to v1.4.0 ([cc8f68f](https://github.com/posthtml/posthtml-webp/commit/cc8f68f))
+* build: update changelog ([afec73d](https://github.com/posthtml/posthtml-webp/commit/afec73d))
+* build: update depDev ([c6073ba](https://github.com/posthtml/posthtml-webp/commit/c6073ba))
 * docs: for ignore ([15953c7](https://github.com/posthtml/posthtml-webp/commit/15953c7))
 * feat: ignore, close #21 ([735ed05](https://github.com/posthtml/posthtml-webp/commit/735ed05)), closes [#21](https://github.com/posthtml/posthtml-webp/issues/21)
 * test: for ignore, issue #21 ([4fa4423](https://github.com/posthtml/posthtml-webp/commit/4fa4423)), closes [#21](https://github.com/posthtml/posthtml-webp/issues/21)
 * perf: process ([433d79c](https://github.com/posthtml/posthtml-webp/commit/433d79c))
-* build: update depDev ([c6073ba](https://github.com/posthtml/posthtml-webp/commit/c6073ba))
 
 
 
