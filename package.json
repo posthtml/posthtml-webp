@@ -35,6 +35,7 @@
   "scripts": {
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
     "lint": "standard | snazzy",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release-major": "mversion major",
     "release-minor": "mversion minor",
     "release-patch": "mversion patch",
