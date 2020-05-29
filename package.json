@@ -3,9 +3,6 @@
   "description": "Add webp supporting in your html",
   "version": "1.5.0",
   "author": "seokirill",
-  "ava": {
-    "verbose": "true"
-  },
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
     "posthtml": "^0.13.0"
@@ -21,13 +18,6 @@
     "nyc": "^15.0.1",
     "snazzy": "^8.0.0",
     "standard": "^14.3.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm t",
-      "pre-commit": "npm run lint",
-      "commit-msg": "conventional-changelog-lint -p angular -e"
-    }
   },
   "engines": {
     "node": ">=8"
