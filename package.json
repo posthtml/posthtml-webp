@@ -1,33 +1,22 @@
 {
   "name": "posthtml-webp",
   "description": "Add webp supporting in your html",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "seokirill",
-  "ava": {
-    "verbose": "true"
-  },
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
-    "posthtml": "^0.12.0"
+    "posthtml": "^0.13.0"
   },
   "devDependencies": {
-    "ava": "^3.4.0",
-    "conventional-changelog": "^3.1.18",
-    "conventional-changelog-cli": "^2.0.31",
-    "conventional-changelog-lint": "^2.1.1",
-    "coveralls": "^3.0.9",
-    "husky": "^4.2.3",
-    "mversion": "^1.13.0",
-    "nyc": "^15.0.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "ava": "^3.8.2",
+    "conventional-changelog-cli": "^2.0.34",
+    "coveralls": "^3.1.0",
+    "husky": "^4.2.5",
+    "nyc": "^15.0.1",
     "snazzy": "^8.0.0",
-    "standard": "^14.3.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm t",
-      "pre-commit": "npm run lint",
-      "commit-msg": "conventional-changelog-lint -p angular -e"
-    }
+    "standard": "^14.3.4"
   },
   "engines": {
     "node": ">=8"
@@ -45,9 +34,7 @@
   "scripts": {
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
     "lint": "standard | snazzy",
-    "release-major": "mversion major",
-    "release-minor": "mversion minor",
-    "release-patch": "mversion patch",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "npm run lint && ava"
   }
 }
