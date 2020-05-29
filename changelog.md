@@ -1,3 +1,19 @@
+## <small>1.5.1 (2020-05-29)</small>
+
+* build: drop mversion ([89e7273](https://github.com/posthtml/posthtml-webp/commit/89e7273))
+* build: perf config to file ([11397da](https://github.com/posthtml/posthtml-webp/commit/11397da))
+* build: update changelog ([97dcc39](https://github.com/posthtml/posthtml-webp/commit/97dcc39))
+* build: update commit lint ([110471e](https://github.com/posthtml/posthtml-webp/commit/110471e))
+* build: update dep dev ([2de382c](https://github.com/posthtml/posthtml-webp/commit/2de382c))
+* build: update lock ([836009d](https://github.com/posthtml/posthtml-webp/commit/836009d))
+* build(deps): bump acorn from 7.0.0 to 7.1.1 ([3762ced](https://github.com/posthtml/posthtml-webp/commit/3762ced))
+* build(deps): bump handlebars from 4.1.2 to 4.7.3 ([f45ea6b](https://github.com/posthtml/posthtml-webp/commit/f45ea6b))
+* ci: update coveralls ([3cbd9a0](https://github.com/posthtml/posthtml-webp/commit/3cbd9a0))
+* fix: fixture ignore indentation ([314d9f0](https://github.com/posthtml/posthtml-webp/commit/314d9f0))
+* fix: handle classIgnore for img with no class attribute ([3233f0f](https://github.com/posthtml/posthtml-webp/commit/3233f0f))
+
+
+
 ## 1.5.0 (2020-02-25)
 
 * build: bump version ([7f869de](https://github.com/posthtml/posthtml-webp/commit/7f869de))
