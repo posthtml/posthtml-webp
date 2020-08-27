@@ -1,7 +1,7 @@
 {
   "name": "posthtml-webp",
   "description": "Add webp supporting in your html",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "author": "seokirill",
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
