@@ -72,7 +72,7 @@ Example: `extensionIgnore: ['svg']` will ignore transformation for images with t
 
 Type: `String`  
 Default: `data-srcset`  
-Description: *The attribute used for lazy webp loading. It will be set on created `<source>` to later be processed by external lazy loading library.*  
+Description: *The attribute used for lazy webp loading. Use it if you have lazy attribute for `srcset` on your images. It will be set on created `<source>` to later be processed by external lazy loading library.*  
 Example: `lazySrcset: 'my-srcset'` will set `my-srcset` attribute on `<source>`
 
 #### `lazySrc`
