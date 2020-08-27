@@ -5,18 +5,26 @@
   "author": "seokirill",
   "bugs": "https://github.com/posthtml/posthtml-webp/issues",
   "dependencies": {
-    "posthtml": "^0.13.0"
+    "posthtml": "^0.13.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-angular": "^8.2.0",
-    "ava": "^3.8.2",
-    "conventional-changelog-cli": "^2.0.34",
+    "ava": "^3.12.1",
+    "conventional-changelog": "^3.1.23",
+    "conventional-changelog-cli": "^2.1.0",
+    "conventional-changelog-lint": "^2.1.1",
     "coveralls": "^3.1.0",
     "husky": "^4.2.5",
-    "nyc": "^15.0.1",
+    "mversion": "^2.0.1",
+    "nyc": "^15.1.0",
     "snazzy": "^8.0.0",
     "standard": "^14.3.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm t",
+      "pre-commit": "npm run lint",
+      "commit-msg": "conventional-changelog-lint -p angular -e"
+    }
   },
   "engines": {
     "node": ">=8"
