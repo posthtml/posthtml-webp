@@ -45,6 +45,12 @@ test('Extension ignore', (t) => {
   })
 })
 
+test('Lazy attributes', (t) => {
+  return compare(t, 'lazy', {
+    replaceExtension: true
+  })
+})
+
 function compare (t, name, options) {
   const html = readFileSync(path.join(fixtures, `${name}.html`), 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
