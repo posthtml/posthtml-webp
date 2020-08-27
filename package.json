@@ -27,7 +27,7 @@
     }
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "homepage": "https://github.com/posthtml/posthtml-webp",
   "keywords": [
