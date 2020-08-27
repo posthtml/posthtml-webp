@@ -1,7 +1,17 @@
+## 2.0.0 (2020-08-27)
+
+* ci: drop support old node ([28e2ab6](https://github.com/posthtml/posthtml-webp/commit/28e2ab6))
+* build: update dep dev ([3332933](https://github.com/posthtml/posthtml-webp/commit/3332933))
+* Use unchanged <img> `srcset` as <source> `srcset` ([cf0ff28](https://github.com/posthtml/posthtml-webp/commit/cf0ff28))
+
+
+
 ## <small>1.5.1 (2020-05-29)</small>
 
+* 1.5.1 ([0b2ad11](https://github.com/posthtml/posthtml-webp/commit/0b2ad11))
 * build: drop mversion ([89e7273](https://github.com/posthtml/posthtml-webp/commit/89e7273))
 * build: perf config to file ([11397da](https://github.com/posthtml/posthtml-webp/commit/11397da))
+* build: update changelog ([e765f25](https://github.com/posthtml/posthtml-webp/commit/e765f25))
 * build: update changelog ([97dcc39](https://github.com/posthtml/posthtml-webp/commit/97dcc39))
 * build: update commit lint ([110471e](https://github.com/posthtml/posthtml-webp/commit/110471e))
 * build: update dep dev ([2de382c](https://github.com/posthtml/posthtml-webp/commit/2de382c))
