@@ -1,7 +1,17 @@
+## 2.1.0 (2020-08-28)
+
+* Clarify docs ([15a3872](https://github.com/posthtml/posthtml-webp/commit/15a3872))
+* Remove confusing comment ([9bf323a](https://github.com/posthtml/posthtml-webp/commit/9bf323a))
+* Support lazy loading ([62f0e69](https://github.com/posthtml/posthtml-webp/commit/62f0e69))
+
+
+
 ## 2.0.0 (2020-08-27)
 
-* ci: drop support old node ([28e2ab6](https://github.com/posthtml/posthtml-webp/commit/28e2ab6))
+* build: update changelog ([aa3f841](https://github.com/posthtml/posthtml-webp/commit/aa3f841))
 * build: update dep dev ([3332933](https://github.com/posthtml/posthtml-webp/commit/3332933))
+* build: v2.0.0 ([09f7fd2](https://github.com/posthtml/posthtml-webp/commit/09f7fd2))
+* ci: drop support old node ([28e2ab6](https://github.com/posthtml/posthtml-webp/commit/28e2ab6))
 * Use unchanged <img> `srcset` as <source> `srcset` ([cf0ff28](https://github.com/posthtml/posthtml-webp/commit/cf0ff28))
 
 
