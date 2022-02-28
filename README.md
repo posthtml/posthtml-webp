@@ -26,7 +26,7 @@ posthtml()
     .process(html/*, options */)
     .then(result => fs.writeFileSync('./after.html', result.html));
 ```
-## Example 
+## Example
 
 Before:
 ``` html
@@ -47,39 +47,46 @@ After:
 
 ## Options
 
+#### `extension`
+
+Type: `string`
+Default: `.webp`
+Description: *Add custom extension or even prefix*
+Example: `image.jpg => image.jpg?as=webp (instead of image.jpg.webp)`
+
 #### `replaceExtension`
 
-Type: `Boolean`  
-Default: `false`  
-Description: *Replace the extension of the source image with .webp instead of appending .webp to the original filename*  
+Type: `Boolean`
+Default: `false`
+Description: *Replace the extension of the source image with .webp instead of appending .webp to the original filename*
 Example: `image.jpg => image.webp (instead of image.jpg.webp)`
 
 #### `classIgnore`
 
-Type: `Array<string>`  
-Default: `[]`  
-Description: *list of classes for which the transformation will be ignored*  
-Example: `classIgnore: ['ignore-webp']` will ignore transformation for images with the class `ignore-web` 
+Type: `Array<string>`
+Default: `[]`
+Description: *list of classes for which the transformation will be ignored*
+Example: `classIgnore: ['ignore-webp']` will ignore transformation for images with the class `ignore-web`
 
 #### `extensionIgnore`
 
-Type: `Array<string>`  
-Default: `[]`  
-Description: *list of extension for which the transformation will be ignored*  
+Type: `Array<string>`
+Default: `[]`
+Description: *list of extension for which the transformation will be ignored*
 Example: `extensionIgnore: ['svg']` will ignore transformation for images with the `svg` extension
 
 #### `lazySrcset`
 
-Type: `String`  
-Default: `data-srcset`  
-Description: *The attribute used for lazy webp loading. Use it if you have lazy attribute for `srcset` on your images. It will be set on created `<source>` to later be processed by external lazy loading library.*  
+Type: `String`
+Default: `data-srcset`
+Description: *The attribute used for lazy webp loading. Use it if you have lazy attribute for `srcset` on your images. It will be set on created `<source>` to later be processed by external lazy loading library.*
 Example: `lazySrcset: 'my-srcset'` will set `my-srcset` attribute on `<source>`
 
 #### `lazySrc`
 
-Type: `String`  
-Default: `data-src`  
-Description: *The attribute used for lazy webp loading. The original `<img>` may not contain `src` at all, but instead some custom lazy-loading attribute. Or it may contain just a placeholder image inside `src` which shouldn't be used for webp conversion. `lazySrc` will define a custom attribute name to look at when processing your lazy loaded images. Note that `lazySrcset` is still needed even if `<img>` has only `lazySrc` defined, because `srcset` is the mechanism for defining a source file for the `<source>`. See `lazySrcset` option description.*  
+Type: `String`
+Default: `data-src`
+Description: *The attribute used for lazy webp loading. The original `<img>` may not contain `src` at all, but instead some custom lazy-loading attribute. Or it may contain just a placeholder image inside `src` which shouldn't be used for webp conversion. `lazySrc` will define a custom attribute name to look at when processing your lazy loaded images. Note that `lazySrcset` is still needed even if `<img>` has only `lazySrc` defined, because `srcset` is the mechanism for defining a source file for the `<source>`. See `lazySrcset` option description.*
 Example: `lazySrc: 'my-src'` will convert an image inside `my-src` attribute, instead of regular `src`.
 
 ### License [MIT](LICENSE)
