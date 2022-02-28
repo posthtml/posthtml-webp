@@ -1,5 +1,21 @@
+## 2.2.0 (2022-02-28)
+
+* build: update dep dev ([ede17a7](https://github.com/posthtml/posthtml-webp/commit/ede17a7))
+* build(deps): bump handlebars from 4.7.6 to 4.7.7 ([decb352](https://github.com/posthtml/posthtml-webp/commit/decb352))
+* build(deps): bump hosted-git-info from 2.8.8 to 2.8.9 ([45a6939](https://github.com/posthtml/posthtml-webp/commit/45a6939))
+* build(deps): bump ini from 1.3.5 to 1.3.7 ([b7a2e87](https://github.com/posthtml/posthtml-webp/commit/b7a2e87))
+* build(deps): bump normalize-url from 4.5.0 to 4.5.1 ([d8bb942](https://github.com/posthtml/posthtml-webp/commit/d8bb942))
+* build(deps): bump path-parse from 1.0.6 to 1.0.7 ([0314d82](https://github.com/posthtml/posthtml-webp/commit/0314d82))
+* build(deps): bump y18n from 4.0.0 to 4.0.1 ([7beb82e](https://github.com/posthtml/posthtml-webp/commit/7beb82e))
+* perf: fix after lint ([56d0de9](https://github.com/posthtml/posthtml-webp/commit/56d0de9))
+* Option `extension` added ([5e04605](https://github.com/posthtml/posthtml-webp/commit/5e04605))
+
+
+
 ## 2.1.0 (2020-08-28)
 
+* build: update changelog ([af2f782](https://github.com/posthtml/posthtml-webp/commit/af2f782))
+* build: v2.1.0 ([27716e1](https://github.com/posthtml/posthtml-webp/commit/27716e1))
 * Clarify docs ([15a3872](https://github.com/posthtml/posthtml-webp/commit/15a3872))
 * Remove confusing comment ([9bf323a](https://github.com/posthtml/posthtml-webp/commit/9bf323a))
 * Support lazy loading ([62f0e69](https://github.com/posthtml/posthtml-webp/commit/62f0e69))
