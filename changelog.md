@@ -1,5 +1,6 @@
 ## 2.2.0 (2022-02-28)
 
+* build: update changelog ([2c106ea](https://github.com/posthtml/posthtml-webp/commit/2c106ea))
 * build: update dep dev ([ede17a7](https://github.com/posthtml/posthtml-webp/commit/ede17a7))
 * build(deps): bump handlebars from 4.7.6 to 4.7.7 ([decb352](https://github.com/posthtml/posthtml-webp/commit/decb352))
 * build(deps): bump hosted-git-info from 2.8.8 to 2.8.9 ([45a6939](https://github.com/posthtml/posthtml-webp/commit/45a6939))
